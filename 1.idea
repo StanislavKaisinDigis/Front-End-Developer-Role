@@ -1,0 +1,69 @@
+Front-End Developer Role
+Job Description
+We are seeking a skilled Front-End Developer to join our dynamic team in enhancing our existing React TypeScript application. The ideal candidate will be responsible for developing a new page or function, meticulously integrating design elements from Figma. This role requires proficiency in React, TypeScript, and Tailwind and familiarity with Postman, GitHub, Docker, and Nginx.
+Key Responsibilities
+Develop a new feature within our React application, ensuring seamless integration with provided Figma designs.
+Ensure the new page or function aligns with the existing application's structure and API interactions.
+Collaborate closely with the development team to maintain code quality and consistency, utilizing GitHub for version control and Jira for task management.
+Test functionality with Postman and deploy changes using Docker, ensuring high performance and responsiveness across devices.
+Qualifications
+Strong expertise in React and TypeScript.
+Experience with Postman, GitHub, Jira, and Nginx.
+Ability to translate design elements from Figma into functional UI components.
+Proficiency in integrating UI elements with existing application APIs and functionality.
+Excellent problem-solving skills and attention to detail.
+
+Test Task for Front-End Developer Role
+Objective
+Create a simplified version of a feature for a React TypeScript application, 
+focusing on integrating basic UI components and functionality. 
+This task is designed to assess your skills in React, and TypeScript, 
+and your ability to translate design concepts into functional application components.
+
+Task Description
+You are to develop a mini-application or a specific feature within an existing
+ application framework. The feature should include the following elements:
+Radio Selection Buttons
+
+Implement a set of radio buttons that allow the user to select between three options
+ (e.g., "Option A", "Option B", "Option C").
+Selected option should be stored in the application's state.
+
+Text Box for Discount Code Entry
+Create a text box where users can enter a discount code.
+Include basic validation to check if the entered text follows a simple pattern (e.g., "DISCOUNT2024").
+Button to Simulate Discount Code Generation
+Implement a button that, when clicked, generates a mock discount code (e.g., "NEWCODE123") and displays it to the user.
+The generated code doesn't need to be stored.
+Basic Note Field
+Add a text box where users can enter notes or comments.
+Ensure the text entered is accessible in the application's state.
+
+
+Requirements
+
+Use React for UI development and Redux for state management.
+Style the components using Tailwind for a polished look.
+Ensure the application is responsive and functions well on both desktop and mobile devices.
+Write clean, maintainable code, with comments where necessary to explain complex logic
+Evaluation Criteria
+Adherence to the task requirements and completion of the outlined features.
+Code quality, including readability, structure, and use of best practices.
+Visual appeal and usability of the UI components.
+Effective use of React, and Tailwind.
+Submission Guidelines
+Host your code on GitHub and provide a link to the repository.
+Ensure the README file includes instructions on how to set up and run your application.
+Document any assumptions or decisions you made during the development process.
+
+Time Allocation
+You have 2-3 hours to complete this task. 
+Please submit your work by the end of the allotted time, even if all 
+components are not fully polished. We are interested in seeing your approach 
+and prioritization within the given time frame.
+
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Implement a set of radio buttons that allow the user to select between three options
+ (e.g., "Option A", "Option B", "Option C"). Style the components using Tailwind for a polished look.
+take care on responsive design well on both desktop and mobile devices.
