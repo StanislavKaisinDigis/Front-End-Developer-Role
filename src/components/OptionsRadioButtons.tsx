@@ -25,10 +25,7 @@ const OptionsRadioButtons: React.FC<{
             id={option.value}
             value={option.value}
             onChange={(e) => onChange(e.target.value)}
-            className="focus:ring-2
-             focus:ring-offset-2 
-             focus:ring-indigo-500
-              focus:outline-none w-4 h-4 mr-2 rounded-full"
+            className="w-4 h-4 mr-2 rounded-full"
           />
           <span className="text-sm font-medium">{option.label}</span>
         </label>

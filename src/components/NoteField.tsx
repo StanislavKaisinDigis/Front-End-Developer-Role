@@ -26,8 +26,7 @@ const NoteField: React.FC = () => {
       <textarea
         className="rounded-md border
          border-gray-300 py-2 px-3 
-         focus:ring-2 focus:ring-offset-2
-         focus:ring-indigo-500 resize-none"
+          resize-none"
         value={inputValue}
         onChange={handleChange}
         placeholder="Enter your notes here..."
