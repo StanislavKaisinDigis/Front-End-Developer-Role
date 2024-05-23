@@ -1,32 +1,14 @@
 import React from "react";
 
-import { increment, decrement } from "./store/reducers/counterSlice.ts";
-import { useAppDispatch, useAppSelector } from "./store/hooks.ts";
+import { useAppDispatch } from "./store/hooks.ts";
 import RadioButtons from "./components/OptionsRadioButtons.tsx";
 import { setSelectedOption } from "./store/reducers/optionsSlice.ts";
 import DiscountCodeInput from "./components/DiscountCodeInput.tsx";
 import DiscountCodeGenerator from "./components/DiscountCodeGenerator.tsx";
 import NoteField from "./components/NoteField.tsx";
-
-const options = [
-  {
-    label: "Option A",
-    value: "Option A",
-  },
-  {
-    label: "Option B",
-    value: "Option B",
-  },
-  {
-    label: "Option C",
-    value: "Option C",
-  },
-];
+import { options } from "./utilities/constants.ts";
 
 function App() {
-  const sore = useAppSelector((state) => state);
-  console.log("Diplay sore to demonstrate it :>> ", sore);
-
   const dispatch = useAppDispatch();
 
   const changeOptions = (value: string) => {
