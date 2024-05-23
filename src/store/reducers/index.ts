@@ -1,8 +1,12 @@
 import { combineReducers } from "redux";
-import counterReducer from "./counterSlice";
+import optionsReducer from "./optionsSlice";
+import discountCodeReducer from "./discountSlice";
+import noteReducer from "./notesSlice";
 
 const rootReducer = combineReducers({
-  counter: counterReducer,
+  options: optionsReducer,
+  discountCode: discountCodeReducer,
+  note: noteReducer,
 });
 
 export default rootReducer;
